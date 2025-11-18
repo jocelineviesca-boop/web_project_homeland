@@ -4,7 +4,16 @@
     align-items: center;
 }
 .header__logo{
-width: 254.84px;
-height: 68.94px;
-
+    width: 254.84px;
+    height: 68.94px;
+    margin: 34px 513px 0 513px;
+}
+.header__title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+text-align: center;
+color: #FFFFFF;
 }
