@@ -9,11 +9,30 @@
     margin: 34px 513px 0 513px;
 }
 .header__title{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 96px;
-line-height: 100px;
-text-align: center;
-color: #FFFFFF;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 720px;
+    height: 200px;
+}
+.header__subtitle{
+    width: 720px;
+    height: 72px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 720px;
+    height: 72px;
+}
+.header__image{
+    width: 984px;
+    height: 615px;
 }
