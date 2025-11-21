@@ -1,24 +1,27 @@
 .header{
     display: flex;
     justify-content: center;
+    padding: 34px 0 0 0;
 }
 .header__logo{
     width: 254.84px;
     height: 68.94px;
-    margin: 0 auto;
-    padding-top: 34px;
 }
 @media screen and (max-width:1024px) {
+    .header{
+    padding: 30px 0 0 0;
+}
     .header__logo{
     width: 254px;
     height: 66px;
-    padding-top: 30px;
 }
 }
 @media screen and (max-width:544px) {
+    .header{
+    padding: 20px 0 0 0;
+}
   .header__logo{
     width: 188.62px;
-    height: 11.1px;
-    padding-top: 20px;
+    height: 52px;
 }  
 }
