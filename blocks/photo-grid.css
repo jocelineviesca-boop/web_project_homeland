@@ -19,3 +19,18 @@
     object-fit: cover;
     display: block;
 }
+@media screen and (max-width:1024px){
+    .photo-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        margin-top: 64px;
+    }
+}
+@media screen and (max-width:544px){
+.photo-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        margin-top: 38px;
+        gap: 12px;
+    }
+}
